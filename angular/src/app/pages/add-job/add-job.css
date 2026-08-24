@@ -1,0 +1,109 @@
+
+.layout{
+    display: flex;
+}
+.right{
+
+  width: 50%;
+  height: 700px;
+  padding-left: 50px;
+}
+
+h2{
+font-size: 40px;
+padding-left: 50px;
+}
+.sml{
+    padding-left: 50px;
+    margin-top: -20px;
+}
+.title{
+    font-size:20px;
+    margin-right: 80px;
+    padding-left: 50px;
+    font-weight: bolder;
+    
+}
+.com{
+   
+font-size:20px;
+    font-weight: bolder;
+
+}
+.loc{
+    font-size:20px;
+    font-weight: bolder;
+    margin-right: 80px;
+    padding-left: 50px;
+}
+.sal{
+    font-size:20px;
+    font-weight: bolder;
+}
+.type{
+    font-size:20px;
+    font-weight: bolder;
+    padding-left: 50px;
+    
+}
+.des{
+    font-size:20px;
+    font-weight: bolder;
+    padding-left: 50px;       
+}
+.options{
+     width: 150px;
+    height: 40px;
+    font-size: 15px;
+}   
+.btn{
+    width: 260px;   
+    height: 40px;
+    
+    
+}
+.first{
+    display: flex;  
+}
+.sec{
+display: flex;
+}
+.des-btn{
+ width: 500px;
+    height: 100px;
+   
+    margin-top: 0px;
+}
+
+.action{
+    margin-right: 30px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    border-width: 2px;
+padding-left: 20px;
+  margin-right: 20px;
+
+ 
+   
+}
+.action-2{
+    margin-right: 30px;
+    padding: 10px;
+    background-color: rgb(65,63,212);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+  padding-left: 20px;
+  float: left;
+  margin-right: 10px;
+  
+     
+     
+   
+}
+.btn{
+    display: flex; 
+    padding-left: 50px;
+ 
+}

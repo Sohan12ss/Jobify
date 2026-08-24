@@ -1,0 +1,54 @@
+.left {
+  width: 320px;
+  height: 800px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #202940;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.icon
+{
+  color: white; 
+  margin-top: 30px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  text-decoration: none;
+  display: flex;
+  gap:10px;
+  bottom: 20px;
+  font-size: 20px;
+} 
+.logo{
+  font-size: 40px;
+  padding-left: 5pxpx;
+  color: white;
+  margin-right: 50px;
+  gap: 10px;
+  padding-bottom: 20px;
+
+}
+.active{
+  background-color:  rgb(65,63,212);
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  color: white;
+}
+
+
+.bg-image {
+  margin-top: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-image img {
+  width: 370px;
+  height: 300px;
+}

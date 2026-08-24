@@ -1,0 +1,41 @@
+<div class="layout">
+
+
+<app-navbar></app-navbar>
+
+<div class="right">
+ <h2>Edit Job</h2>
+<p class="sml">Update the job details</p>
+ 
+<p class="input"> Title
+    <input type="text"  class="btn-2" [(ngModel)]="title">
+</p>
+<p class="input"> Company
+    <input type="text" class="btn-2" [(ngModel)]="company">
+</p>
+<div class="first">
+<p class="input"> Location
+    <input type="text" class="btn" [(ngModel)]="location">
+</p>
+<p class="input"> Salary
+    <input type="text" class="btn" [(ngModel)]="salary">
+</p>    
+</div>
+<p class="text"> Job Type</p>
+<select name="option" class="opt">
+    <option value="">Full-time</option>
+     <option value="">Part-time</option>
+      <option value="">Internship</option>
+      <option value="remote">Remote</option>
+</select>
+<p class="input"> Description
+    <input type="text" class="des-btn" [(ngModel)]="description">
+</p>
+ <div class="action">
+    <button (click)="cancelupdate()">Cancel</button>
+        <button class="update" (click)="updatejob()">Update job</button>
+
+ </div>
+
+</div>
+</div>

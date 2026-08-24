@@ -1,0 +1,70 @@
+<div class="layout">
+<div class="left">
+<app-navbar></app-navbar>
+</div>
+<div class="right">
+<p style="font-size: 30px;font-weight: bold;">My Profile</p>
+<p class="temp">Manage your account and Personal information</p>
+
+<div class="layout1">
+  <div class="logo-part">
+   <div class="pp"> <img src="/pp.png" alt="pp"></div>
+    <h3 class="det" style="  font-size: 20px; font-weight: bold;">Sunny Saini</h3>
+    <h3 class="det">Ghaziabad, India</h3>
+    <h3 class="det">Joined May 2024</h3>
+  </div>
+
+
+  <div class="info">
+    <button class="edt-btn" (click)="editProfile()">Edit Profile</button>
+     <div class="pro-det" >Full Name : {{profile.fullName}}</div>
+     <br>
+     <div class="pro-det">Email : {{profile.email}}</div>
+     <br>
+     <div class="pro-det">Company : {{profile.company}}</div> 
+     <br>
+     <div class="pro-det">Phone Number : {{profile.phone}}</div>
+     <br>
+     <div class="pro-det">Location : {{profile.location}}</div>
+     <br> 
+     <div class="bio-detail">Bio : {{profile.bio}}</div>
+
+    </div>    
+
+      <div *ngIf="editing">
+      <h3>Edit Profile</h3>
+     
+      <label>Full Name</label>
+      <input type="text" [(ngModel)]="profile.fullName">
+      <label >Email</label>
+       <input type="text" [(ngModel)]="profile.email">
+       <label> Company</label>
+       <input type="text"[(ngModel)]="profile.company">
+       <label >Phone Number</label>
+       <input type="text"[(ngModel)]="profile.phone">
+       <label> location</label>
+       <input type="text"[(ngModel)]="profile.location">
+       <label>Bio</label>
+        <input type="text"[(ngModel)]="profile.bio">
+
+        <div class="edit-button">
+          <button class="save-btn" (click)="saveProfile()">Save Changes</button>
+          <button class="cancel-btn" (click)="cancelEdit()">Cancel</button>
+        </div>
+     
+    </div>
+
+      </div>  
+
+
+<div class="layout2">
+<div class="job-stats">
+    <p class="btn" style=" background-color: rgb(217, 234, 239);"><i class="fa-brands fa-flipboard"></i>Total Jobs {{totalJobs}}</p>
+    <p class="btn" style="background-color: rgb(212, 238, 212); display: flex;"><i class="fa-solid fa-circle-up"></i>Active Jobs {{activeJobs}}</p>
+    <p class="btn " style="background-color: rgb(204, 204, 236);"><i class="fa-solid fa-bullhorn"></i>Recent Jobs</p>
+    <p class="btn" style="background-color: rgb(230, 217, 195);"><i class="fa-solid fa-building "></i>Companies {{companies}}</p>
+    </div>
+    </div>
+</div>
+
+</div>

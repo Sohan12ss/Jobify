@@ -1,0 +1,47 @@
+<div class="layout">
+<app-navbar></app-navbar>
+<div class="add-job">
+
+<div class="right">
+    <h2>Add New Job</h2>
+    <p class="sml">Fill the details to post a new job</p>
+   <div class="first">
+   <p class="title">Job Title<br>
+    <input type="text" placeholder="e.g. Frontend Developer" style="text-align: left;" class="btn" [(ngModel)]="jobT">
+    </p>
+    <p class="com">Company<br>
+    <input type="text" placeholder="e.g. Google" class="btn" [(ngModel)]="com">
+
+    </p>
+</div>
+    <div class="sec">
+    <p class="loc">Location<br>
+    <input type="text" placeholder="e.g. Gurugram" class="btn" [(ngModel)]="loc">
+    </p>
+    <p class="sal">Salary<br>
+    <input type="text" placeholder="e.g. 12LPA" class="btn" [(ngModel)]="sal">
+    </p>
+    </div>
+
+    
+    <p class="type">Job Type<br>
+    <select name="job-type" class="options" [(ngModel)]="jobType">
+        <option value="Full-time">Full-time</option>
+        <option value="Part-time">Part-time</option>
+        <option value="Internship">Internship</option>
+        <option value="remote"> Remote</option>
+    </select></p>
+    <P class="des">Description <br><input type="text" placeholder="Enter job Description" class="des-btn" [(ngModel)]="des"></P>
+    <div class="btn">
+    <button class="action" (click)="clearform()">Cancel</button>
+        <button class="action-2" (click)="createjob()">Create job</button>
+
+        </div>
+
+</div>
+</div>
+</div>
+
+
+
+

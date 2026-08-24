@@ -1,0 +1,36 @@
+
+<div class="Dashboard-page">
+<div class="login-page" >
+
+
+<div class="left" >
+  <div class="logo-box">
+  <img src="">
+  
+    <h1 style="padding-bottom: 25px ; font-size: 50px;">jobify</h1>
+    </div>
+<h2 class="wel">welcome back!</h2>
+<p style="font-size: 18px;">Login your account to continue</p>
+</div>
+<div class="right">
+    <h1 style="padding-top: 50px; font-size: 40px;  padding-left: 23px;" >Login</h1>
+    <p style="font-size: 18px; padding-left: 23px;">Enter your information to access your account</p>
+
+  <h4 class="input" >Email
+    <br>
+    <input type="text", placeholder="enter your Email" class="btn" [(ngModel)]="email" > 
+  </h4>
+  <h4 class="input-2" >Password
+    <br>
+   <input type="text", placeholder="enter your Password" class="btn" [(ngModel)]="password">
+  </h4>
+  <input type="checkbox" style="display: flex; margin-left: 20px; font-weight: lighter;  " [(ngModel)]="rememberme"><h4 class="Remember" >Remember Me</h4>
+
+<a href="#" class="new">Forget Password?</a>
+<br>
+<button class="login" (click)="loginuser()" >Login</button>
+<p style="padding-left: 120px;">Ex:admin@gmail.com/123456</p>
+</div>
+
+</div>
+</div>

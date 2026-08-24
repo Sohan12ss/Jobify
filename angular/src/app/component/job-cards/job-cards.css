@@ -1,0 +1,26 @@
+.layout{
+    display: flex;
+    gap: 20px;
+}
+.button{
+    display: flex;width: 50px;
+    height: 30px;
+    padding-top: 30px;
+    gap:10px;
+}
+.job-cards{
+  
+    display: flex;  
+    font-size: 19px;
+    background-color: white;
+    width: 250px;
+    gap: 170px;
+    border-radius: 12px;
+}
+.head{
+    padding-top: 20px;
+    
+}
+.job-cards span{
+    white-space: nowrap;
+}

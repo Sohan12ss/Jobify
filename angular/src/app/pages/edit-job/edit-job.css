@@ -1,0 +1,84 @@
+.layout{
+  display: flex;
+}
+.right{
+   width: 50%;
+  height: 700px;
+  padding-left: 50px;
+ 
+}
+h2{
+  font-size: 40px;
+  padding-left: 50px;
+}
+.sml{
+  padding-left: 50px;
+  margin-top: -20px;
+}
+.btn{
+   margin-right: 80px;
+    width: 300px;
+    height: 25px;
+    margin-top: 7px;
+}
+.input{
+  width: 200px;
+  height: 40px;
+  padding-left: 50px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.first{
+  display: flex;
+  gap: 200px;
+}
+
+.btn-2{
+  width: 800px;
+  margin-top: 7px;
+  height: 25px;
+
+}
+.opt{
+  margin-left: 50px;
+ top: -20px;
+  width: 200px;
+  font-size: 15px;
+  height: 40px;
+}
+
+.text{
+  padding-left: 50px;
+  font-size: 20px;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+.des-btn{
+  
+   margin-top: 10px;
+  
+    width: 750px;
+    height: 100px;
+
+     text-align: left;
+  
+   
+   
+}
+.action{
+    display: flex;
+    padding-left: 50px;
+    margin-top: 120px;
+    gap: 20px;
+    width: 230px;
+    height: 30px;
+
+}
+.update{
+  background-color: rgb(65,63,212);
+  color: white;
+   border-style: none;
+  border-radius: 3px;
+}

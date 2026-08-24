@@ -1,0 +1,75 @@
+
+.layout{
+  display: flex;
+}
+
+.left{
+  display: flex;
+}
+.right{
+  padding-left: 100px;
+  padding-top: 6px;
+
+}
+.pic{
+  height: 120px;
+  border-radius: 50%;
+  width: 120px;
+  margin-top: 40px;
+  padding-left: 90px;
+}
+.det{
+  font-weight:lighter ;
+  padding-left: 35px;
+}
+.layout1{
+  display: flex;
+}
+
+.info{
+  padding-left: 90px;
+  font-size: 20px;
+}
+.edt-btn{
+margin-left: 350px;
+}
+
+.btn{
+  height: 120px;
+  width: 110px;
+  margin-top: 30px;
+  
+ text-align: left;
+ border: 2px solid black;
+ border-width: 0cap;
+ border-radius: 6%;
+ display: flex;
+ flex-direction: column;
+}
+.job-stats{
+  display: flex;
+  padding-left: 40px;
+  padding-top: 40px;
+  gap: 90px;
+}
+.pp{
+  margin-top: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pp img {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+}
+.pro-det{
+  font-size: 18px;
+}
+.bio-detail{
+  font-size: 18px;
+max-width: 350px;
+  line-height: 1.5;
+  white-space: normal;
+}

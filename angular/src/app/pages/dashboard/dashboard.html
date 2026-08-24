@@ -1,0 +1,38 @@
+<div class="layout">
+    <app-navbar></app-navbar>
+
+
+
+<div class="right"> 
+    <h2>Dashboard</h2>
+     <input type="text" placeholder="Search jobs" class="search">
+     <a href="#" class="ad-logo"><i class="fa-solid fa-circle-user"></i> Admin</a>
+    
+
+
+    <p class="par">Welcome back, Admin</p>
+   <div class="cont">
+    <p class="btn" style="display: flex; background-color: rgb(217, 234, 239);"><i class="fa-brands fa-flipboard"></i>Total Jobs  {{totalJobs}}</p>
+    <p class="btn" style="background-color: rgb(212, 238, 212);"><i class="fa-solid fa-circle-up"></i>Active Jobs {{activeJobs}}</p>
+    <p class="btn " style="background-color: rgb(204, 204, 236);"><i class="fa-solid fa-bullhorn"></i>Recent Jobs</p>
+    <p class="btn" style="background-color: rgb(230, 217, 195);"><i class="fa-solid fa-building "></i>Companies {{companies}}</p>
+    </div>
+
+    <div class="heading">
+        <p>Title</p>
+        <p class="temp">Company</p>
+        <p class="temp">Package</p>
+    </div>
+
+    <div class="cards">
+          <app-job-cards
+    *ngFor="let job of jobs"
+    [job]="job">
+</app-job-cards>
+
+    </div>
+
+
+</div>
+</div>
+    
