@@ -169,7 +169,7 @@ While building Jobify, I worked with:
 
 ## 👨‍💻 Author
 
-**Sohan Saini**
+**Sunny Saini**
 
 Full-Stack Developer | Angular | .NET | C# | MySQL
 
