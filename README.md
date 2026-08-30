@@ -128,19 +128,20 @@ Add screenshots of the application here to showcase the UI.
 
 ### Login
 
-*Add your login screenshot here.*
+<img width="1440" height="900" alt="login" src="https://github.com/user-attachments/assets/67f443ee-2a3e-440e-993c-1b118de29f1a" />
 
 ### Dashboard
 
-*Add your dashboard screenshot here.*
+<img width="1440" height="900" alt="job" src="https://github.com/user-attachments/assets/a785337d-dfc6-419d-a54c-0dd1e322ef17" />
+
 
 ### Add Job
 
-*Add your Add Job screenshot here.*
+<img width="1440" height="900" alt="add-job" src="https://github.com/user-attachments/assets/c85b6cf4-05ae-4a39-adba-08c9e934ec44" />
 
 ### Profile
 
-*Add your Profile screenshot here.*
+<img width="1440" height="900" alt="profile" src="https://github.com/user-attachments/assets/e325f1fb-3a76-409c-887b-caddc1761131" />
 
 ## 🎯 What I Learned
 
