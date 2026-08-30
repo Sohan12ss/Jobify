@@ -128,20 +128,24 @@ Add screenshots of the application here to showcase the UI.
 
 ### Login
 
-<img width="1440" height="900" alt="login" src="https://github.com/user-attachments/assets/67f443ee-2a3e-440e-993c-1b118de29f1a" />
+<img width="2880" height="1714" alt="login" src="https://github.com/user-attachments/assets/64bd416f-a951-468c-8a86-cdb614de783a" />
+
 
 ### Dashboard
 
-<img width="1440" height="900" alt="job" src="https://github.com/user-attachments/assets/a785337d-dfc6-419d-a54c-0dd1e322ef17" />
+<img width="2880" height="1730" alt="job" src="https://github.com/user-attachments/assets/ed4ebec5-0a00-4b59-9935-6aed4bba50a5" />
+
 
 
 ### Add Job
 
-<img width="1440" height="900" alt="add-job" src="https://github.com/user-attachments/assets/c85b6cf4-05ae-4a39-adba-08c9e934ec44" />
+<img width="2880" height="1711" alt="add-job" src="https://github.com/user-attachments/assets/83a1a51e-8f5b-45ec-9430-93d8ef50e5e6" />
+
 
 ### Profile
 
-<img width="1440" height="900" alt="profile" src="https://github.com/user-attachments/assets/e325f1fb-3a76-409c-887b-caddc1761131" />
+<img width="2880" height="1707" alt="profile" src="https://github.com/user-attachments/assets/17248824-eff1-4e5e-a38a-ea466bf4b95f" />
+
 
 ## 🎯 What I Learned
 
